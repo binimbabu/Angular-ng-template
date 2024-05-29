@@ -1,0 +1,7 @@
+<button (click)="getValue()">Get Value</button>
+<div *ngIf="booleanValue else elseBlock">
+    Bini Babu
+</div>
+<ng-template #elseBlock>
+    Anna Babu
+</ng-template>
